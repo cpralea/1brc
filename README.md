@@ -5,5 +5,8 @@ At the time of implementation (Dec 2025) and on the hardware used for developmen
 Build and run:
 ```
 $ ./gradlew build
-$ java -jar app/build/libs/app-all.jar -p Advanced ./measurements.txt
+$ time java -jar app/build/libs/app-all.jar -p Advanced -o measurements.out measurements.txt
+real	0m5.798s
+user	2m9.923s
+sys	0m0.913s
 ```
