@@ -6,7 +6,7 @@ Build and run:
 ```
 $ ./gradlew build
 $ time java -jar app/build/libs/app-all.jar -p Advanced -o measurements.out measurements.txt
-real	0m5.798s
-user	2m9.923s
-sys	0m0.913s
+real    0m5.798s
+user    2m9.923s
+sys     0m0.913s
 ```
