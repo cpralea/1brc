@@ -8,7 +8,6 @@ repositories {
 }
 
 dependencies {
-    implementation(libs.guava)
     implementation(libs.picocli)
     annotationProcessor(libs.picocli.codegen)
 
